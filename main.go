@@ -35,7 +35,7 @@ func main() {
 
 	fmt.Println(html)
 	content := scrapPage(urls.Links)
-	createWord("newtext2.txt", content)
+	createWord("newtext3.txt", content)
 }
 func scrapPage(urls []string) []string {
 	var content []string
